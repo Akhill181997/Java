@@ -1,0 +1,11 @@
+public String reverseString(String input) {
+    String str = "";
+    char[] chars = input.toCharArray(); 
+
+    
+    for (int i = chars.length - 1; i >= 0; i--) {
+        str += chars[i]; 
+    }
+
+    return str;
+}
